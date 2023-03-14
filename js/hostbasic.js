@@ -1,12 +1,11 @@
-let backURL = "http://192.168.0.28:8888/developer/";
-let frontURL = "http://192.168.0.28:5500/html/";
+
+let backURL = "http://192.168.0.34:8888/developer/";
+let frontURL = "http://192.168.0.34:5500/html/";
 //http://192.168.0.20 학원
 //http://192.168.219.100 집
 //http://192.168.0.13학원와이파이
 
 $(() => {
-
-
     //--로그아웃 클릭되었을 때 할 일 START--
     $('#nav-wrap > div > nav > ul > li.logout').click((e) => {
 

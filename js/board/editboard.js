@@ -100,7 +100,7 @@ $(()=>{
 
         
  });
-  //--첨부파일이 변경되었을때 할일 START--
+  //—첨부파일이 변경되었을때 할일 START—
   let $divShow = $('div.show')
   $('div.form>form>input[type=file]').change((e) => {
       $(e.target.files).each((index, imgFileObj) => {
