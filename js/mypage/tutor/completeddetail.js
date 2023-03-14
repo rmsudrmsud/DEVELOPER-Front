@@ -57,9 +57,10 @@ $(()=>{
                         success: function (result) {
                             console.log(result);
                             let blobStr = URL.createObjectURL(result);
-                            $copy_endclassimg.find("#endclass>#endclassimg>div.imgPath>img").attr("src", blobStr);
+                            $copy_endclassimg.find("#endclassimg> div.imgPath").attr("src", blobStr);
                         },
                     });
+                    // console.log(div.imgPath);
                     let $copy_endclasslist = $origin_endclasslist.clone();
                     let $copy_endclassimg = $origin_endclassimg.clone();
                    $copy_endclasslist.find('div.category').html("카테고리:"+temp)
